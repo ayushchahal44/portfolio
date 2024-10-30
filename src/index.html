@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>Ayush-chahal : Portfolio</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="ayushchahal, Ayush Chahal, fullstack" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="Ayush-chahal : Portfolio" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">Ayush Chahal</span>
+          <br />
+          I'm the Full Stack Developer.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Know more</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.png"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                I'm Ayush Chahal, a Full Stack Developer skilled in the MERN
+                stack and experienced with C++, JavaScript, Python, and PHP. I’m
+                currently working remotely with Outlier, where I contribute to
+                AI training by coding and refining responses for accuracy.
+                Previously, as a Web Developer at Leave Code Technologies, I
+                built an examination portal with secure JWT authentication and
+                an interactive UI, as well as a real-time coding collaboration
+                tool using WebSocket technology.
+              </p>
+              <p class="about-wrapper__info-text">
+                In past projects at Codesoft, I developed a responsive gym
+                website and a React-based calculator app with real-time
+                functionality. I also created a secure electronic voting system
+                in C, designed for accuracy and efficiency. With a toolkit that
+                includes Git, Docker, Postman, and design tools, I’m passionate
+                about building innovative, reliable solutions that prioritize
+                user experience.
+              </p>
+              <p class="about-wrapper__info-text">
+                In my free time, I enjoy exploring new technologies, reading
+                tech blogs, and contributing to open-source projects. My goal is
+                to continually improve my skills and eventually lead a team of
+                developers to create impactful software solutions that enhance
+                everyday life.
+              </p>
+
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Examination Portal</h3>
+                <div>
+                  <p class="mb-4">
+                    The Examination Portal project was a collaborative effort,
+                    showcasing my communication and leadership skills as I
+                    coordinated with team members to design and implement
+                    features. I utilized my proficiency in both English and
+                    Hindi to facilitate clear discussions and documentation,
+                    ensuring that all team members were aligned on goals and
+                    deliverables.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/ayushchahal44/examinationportal"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/examination_portal.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">
+                  Realtime Code Editor
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    The Realtime Code Editor project showcases my ability to
+                    develop collaborative web applications. I implemented
+                    features that allow users to edit code in real time while
+                    maintaining a seamless experience through WebSocket
+                    integration. My proficiency in both frontend and backend
+                    technologies enabled me to ensure smooth functionality and
+                    effective communication among users.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/ayushchahal44/Realtime-code-editor"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/realtime_code_editor.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">FitLife</h3>
+                <div>
+                  <p class="mb-4">
+                    FitLife is a user-friendly fitness club website that enables
+                    users to contact the club via a Mail API. I reinforced my
+                    HTML, CSS, and JavaScript skills while ensuring responsive
+                    design. I proactively troubleshot issues to enhance user
+                    experience and accessibility.
+                  </p>
+                </div>
+
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://myfitlife.netlify.app/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/ayushchahal44/Fitlife"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/fitlife.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Weathernerd</h3>
+                <div>
+                  <p class="mb-4">
+                    Weathernerd showcases my commitment to delivering quality
+                    software as a React-based weather application. I leveraged
+                    frameworks and libraries like React, OpenWeatherMap API, and
+                    geo-location database APIs. Through perseverance, I overcame
+                    challenges in API integration, ensuring seamless user
+                    experience and accurate weather data retrieval.
+                  </p>
+                </div>
+
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://weathernerd.netlify.app/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/ayushchahal44/Weather-dashboard"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/weathernerd.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">
+            If you have any questions or would like to get in touch, feel free
+            to reach out. I'm always open to discussing new projects,
+            collaborations, or any opportunities where I can contribute.
+          </p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:ayushchahal44@example.com"
+          >
+            Get in Touch
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            rel="noreferrer"
+            href="https://x.com/ayush_chahal44"
+            target="_blank"
+          >
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/ayush-chahal/"
+            target="_blank"
+          >
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a
+            rel="noreferrer"
+            href="https://github.com/ayushchahal44"
+            target="_blank"
+          >
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <p class="footer__text">
+          © 2024 - Developed by
+          <a
+            rel="noreferrer"
+            href="https://github.com/ayushchahal44"
+            target="_blank"
+          >
+            Ayush Chahal
+          </a>
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
